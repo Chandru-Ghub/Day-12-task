@@ -1,0 +1,171 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table,tr,th,td,caption{
+    /* border: 2px solid black; */
+ 
+    border-collapse: collapse;
+    padding: 0.5rem;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    place-content: center;
+}
+
+
+
+main{
+    padding: 50px;
+   
+    height: 90vh;
+    width: 900px;
+    margin: auto;
+    overflow-y: scroll;
+    border-radius: 20px;
+    box-shadow: .5px .1px 2px 2px #888888;
+   
+    
+}
+
+h1{
+    margin-bottom: 20px;
+    color: blue;
+    font-size: 40px;
+}
+h3{
+    color: blue;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.name{
+    /* background-color: red; */
+     display: flex;
+     margin-bottom: 30px;
+    
+     
+ >.fname{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 12px;
+    
+ }
+ >.sname{
+    margin-left: 40px;
+ }
+    
+}
+
+.star{
+    color: red;
+    margin-left: 2px;
+}
+
+.fa{
+    
+    color:#FFDF00;
+    margin: 0 3px;
+    font-size: 25px;
+}
+
+.email{
+
+    margin-bottom: 20px;
+    >.mail{
+        height: 50px;
+        width: 640px;
+        border-radius: 5px;
+        padding-left: 12px;
+    }
+}
+
+
+.p1{
+    margin-top: 10px;
+}
+.rating{
+    margin-bottom: 10px;
+}
+
+
+
+
+table{
+    margin-left: 10px;
+    margin-bottom: 30px;
+
+    
+}
+tr th{
+    padding-left:20px;
+}
+
+
+.rf{
+ 
+    margin-top: 20px;
+
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.b{
+    background-color: red;
+}
+td {
+    background-color:rgb(236, 233, 233);
+}
+
+td input{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+}
+.k{
+  
+    width: 200px;
+}
+.y{
+ 
+    width: 200px;
+}
+.j{
+    padding: 0 37px;
+}
+button:hover{
+    opacity: .8;
+}
+
+input::placeholder{
+    font-size: 20px;
+    
+}
+input{
+    font-size: 25px;
+    
+}
